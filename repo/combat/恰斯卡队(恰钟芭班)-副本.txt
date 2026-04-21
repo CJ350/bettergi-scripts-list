@@ -11,10 +11,11 @@
 班尼特 e,wait(0.2),q
 
 // 确定方向
-恰斯卡 attack,wait(0.2),keypress(VK_MBUTTON),keypress(VK_MBUTTON)
+恰斯卡 attack,wait(0.3),keypress(VK_MBUTTON),keypress(VK_MBUTTON)
 
 // 清理近处敌人
-恰斯卡 e,wait(0.2),mousedown(left),wait(0.2), moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),e,wait(0.2),q
+恰斯卡e,wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),e,wait(0.2),e,wait(0.2),q
+
 
 
 // 盾位
@@ -25,7 +26,7 @@
 班尼特 e,wait(0.2),q
 
 // 确定方向
-恰斯卡 attack,wait(0.2),keypress(VK_MBUTTON),keypress(VK_MBUTTON)
+恰斯卡 attack,wait(0.3),keypress(VK_MBUTTON),keypress(VK_MBUTTON)
 
 // 清理远处敌人
-恰斯卡 e,wait(0.2),mousedown(left),moveby(160,100),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),e,wait(0.2),q
+恰斯卡e,wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),mousedown(left),wait(0.2),moveby(160,1200),wait(0.5),moveby(220,10),wait(0.5),mouseup(left),wait(0.2),e,wait(0.2),e,wait(0.2),q
